@@ -16,7 +16,7 @@ public class UserServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        List<User> users = UserService.getInstance().findAll();
+        List<String> users = UserService.getInstance().findAll();
         req.setAttribute("user", users);
         getServletContext()
                 .getRequestDispatcher("/WEB-INF/jsp/userlist.jsp")
