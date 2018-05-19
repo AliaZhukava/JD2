@@ -1,0 +1,278 @@
+2018-05-13 15:34:37,368 INFO  - HHH000412: Hibernate Core {5.2.16.Final}
+2018-05-13 15:34:37,379 INFO  - HHH000206: hibernate.properties not found
+2018-05-13 15:34:38,483 INFO  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-05-13 15:34:39,401 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:34:39,593 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:34:39,597 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:34:39,598 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:34:39,668 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:34:40,771 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:34:41,680 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:34:41,695 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:34:43,957 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:34:43,958 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:34:48,042 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:34:48,043 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:34:48,045 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:34:48,046 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:34:48,046 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:34:48,161 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:34:48,626 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:34:48,628 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:34:48,714 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:34:48,715 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:34:49,467 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:34:49,468 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:34:49,469 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:34:49,470 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:34:49,471 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:34:49,606 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:34:49,862 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:34:49,865 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:34:50,007 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:34:50,008 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:34:50,472 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:34:50,473 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:34:50,474 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:34:50,475 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:34:50,475 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:34:50,567 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:34:50,819 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:34:50,821 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:34:50,926 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:34:50,927 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:34:51,124 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-13 15:34:51,710 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:34:51,711 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:34:51,714 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:34:51,715 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:34:51,716 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:34:51,799 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:34:52,002 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:34:52,006 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:34:52,057 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:34:52,058 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:34:52,374 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:34:52,375 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:34:52,375 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:34:52,376 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:34:52,376 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:34:52,478 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:34:52,727 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:34:52,728 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:34:52,784 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:34:52,785 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:34:53,324 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:34:53,326 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:34:53,327 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:34:53,328 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:34:53,329 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:34:53,468 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:34:53,825 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:34:53,827 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:34:53,921 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:34:53,922 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:34:54,435 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:34:54,436 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:34:54,437 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:34:54,438 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:34:54,439 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:34:54,528 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:34:54,946 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:34:54,949 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:34:55,095 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:34:55,096 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:34:55,322 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-13 15:34:55,587 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:34:55,588 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:34:55,589 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:34:55,589 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:34:55,590 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:34:55,677 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:34:55,958 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:34:55,960 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:34:56,099 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:34:56,100 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:34:56,505 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:34:56,507 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:34:56,510 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:34:56,510 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:34:56,510 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:34:56,607 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:34:56,806 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:34:56,807 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:34:56,909 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:34:56,910 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:34:57,324 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:34:57,325 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:34:57,326 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:34:57,327 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:34:57,328 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:34:57,448 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:34:57,668 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:34:57,669 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:34:57,730 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:34:57,730 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:34:58,209 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:34:58,210 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:34:58,211 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:34:58,212 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:34:58,212 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:34:58,310 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:34:58,571 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:34:58,573 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:34:58,661 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:34:58,663 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:34:58,809 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-13 15:34:59,023 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:34:59,024 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:34:59,024 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:34:59,025 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:34:59,025 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:34:59,124 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:34:59,572 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:34:59,573 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:34:59,639 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:34:59,639 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:34:59,907 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:34:59,917 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:34:59,918 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:34:59,918 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:34:59,922 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:35:00,105 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:35:00,505 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:35:00,507 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:35:00,563 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:35:00,564 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:35:01,337 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:35:01,339 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:35:01,340 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:35:01,341 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:35:01,345 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:35:01,488 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:35:01,957 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:35:01,959 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:35:02,024 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:35:02,024 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:35:02,519 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:35:02,520 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:35:02,522 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:35:02,522 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:35:02,523 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:35:03,871 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:35:04,222 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:35:04,224 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:35:04,265 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:35:04,266 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:35:04,440 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-13 15:35:05,140 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:35:05,141 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:35:05,141 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:35:05,142 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:35:05,142 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:35:05,661 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:35:05,970 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:35:05,971 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:35:05,998 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:35:05,998 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:35:06,242 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:35:06,243 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:35:06,243 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:35:06,244 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:35:06,244 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:35:06,388 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:35:06,703 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:35:06,704 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:35:06,739 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:35:06,740 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:35:08,167 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:35:08,167 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:35:08,168 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:35:08,168 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:35:08,169 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:35:08,274 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:35:08,492 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:35:08,494 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:35:08,522 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:35:08,523 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:35:08,601 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2018-05-13 15:35:08,953 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:35:08,954 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:35:08,954 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:35:08,954 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:35:08,955 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:35:09,038 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:35:09,206 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:35:09,207 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:35:09,241 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:35:09,242 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:35:09,432 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:35:09,433 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:35:09,433 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:35:09,434 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:35:09,434 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:35:09,513 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:35:09,697 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:35:09,698 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:35:09,726 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:35:09,726 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:35:10,199 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:35:10,200 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:35:10,201 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:35:10,201 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:35:10,201 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:35:10,286 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:35:10,494 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:35:10,495 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:35:10,526 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:35:10,526 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:35:11,435 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:35:11,435 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:35:11,436 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:35:11,436 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:35:11,436 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:35:11,533 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:35:11,679 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:35:11,680 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:35:11,712 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:35:11,713 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:35:12,107 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:35:12,107 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:35:12,108 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:35:12,108 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:35:12,108 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:35:12,188 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:35:12,340 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:35:12,341 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:35:12,367 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:35:12,367 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:35:13,111 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:35:13,112 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:35:13,112 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:35:13,112 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:35:13,113 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:35:13,211 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:35:13,473 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:35:13,474 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:35:13,508 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:35:13,508 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:35:14,128 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:35:14,128 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:35:14,129 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:35:14,129 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:35:14,129 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:35:14,301 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:35:14,568 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:35:14,569 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:35:14,606 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:35:14,606 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
+2018-05-13 15:35:15,019 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-05-13 15:35:15,020 INFO  - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/gym_database]
+2018-05-13 15:35:15,020 INFO  - HHH10001001: Connection properties: {user=postgres, password=****}
+2018-05-13 15:35:15,021 INFO  - HHH10001003: Autocommit mode: false
+2018-05-13 15:35:15,021 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-05-13 15:35:15,106 INFO  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2018-05-13 15:35:15,344 INFO  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2018-05-13 15:35:15,345 INFO  - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@5149d738
+2018-05-13 15:35:15,380 WARN  - HHH000038: Composite-id class does not override equals(): by.itacademy.entity.Complex
+2018-05-13 15:35:15,380 WARN  - HHH000039: Composite-id class does not override hashCode(): by.itacademy.entity.Complex
