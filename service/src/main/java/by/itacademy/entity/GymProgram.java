@@ -11,7 +11,7 @@ import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-import java.sql.Time;
+import java.time.LocalTime;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -33,7 +33,7 @@ public class GymProgram extends BaseEntity<Long>{
     private Training training;
 
     @Column(name = "time", nullable = false)
-    private Time time;
+    private LocalTime time;
 
     @Column(name = "day_of_week", nullable = false)
     private String dayOfWeek;

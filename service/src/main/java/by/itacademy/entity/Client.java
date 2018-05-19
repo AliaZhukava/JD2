@@ -31,7 +31,7 @@ public class Client extends User {
     @Column (name = "bonus_count")
     private Integer bonusCount;
 
-    @OneToOne(mappedBy = "client", fetch = FetchType.LAZY)
+    @OneToOne(mappedBy = "client")
     private Review review;
 
     @OneToMany(mappedBy = "id.client")

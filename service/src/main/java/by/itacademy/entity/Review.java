@@ -10,7 +10,7 @@ import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
-import java.util.Date;
+import java.time.LocalDate;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -20,7 +20,7 @@ import java.util.Date;
 public class Review extends BaseEntity<Long> {
 
     @Column(name = "date", nullable = false)
-    private Date date;
+    private LocalDate date;
 
     @Column(name = "text", nullable = false)
     private String text;
