@@ -3,7 +3,6 @@ package by.itacademy.entity;
 
 import by.itacademy.entity.enum_entity.GymUserRole;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
