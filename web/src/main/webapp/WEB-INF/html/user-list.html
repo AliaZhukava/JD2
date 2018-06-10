@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>BeInShape Gym</title>
+    <link href="/resources/css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <link href="/resources/css/style.css" rel='stylesheet' type='text/css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <link href="/resources/css/animate.css" rel="stylesheet" type="text/css"
+          media="all">
+    <script src="/resources/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+<body>
+<div class="banner wow fadeInDownBig animated" data-wow-delay="0.4s">
+    <div class="container">
+        <h2>Пользователи</h2>
+    </div>
+</div>
+<div class="container">
+    <div class="fit-grids wow fadeInLeft animated" data-wow-delay="0.4s">
+        <div class="col-md-4 fit-grid">
+            <img src="/resources/images/f1.jpg" class="img-responsive" alt=""/>
+        </div>
+        <div class="col-md-4 fit-grid wow fadeInDownBig animated" data-wow-delay="0.4s">
+            <div class="fit-left hvr-bounce-to-bottom">
+                <h3>Режим работы</h3>
+                <ul>
+                    <li>Понедельник - Пятница : 09:00 - 20:00</li>
+                    <li>Суббота : 09:00 - 16:00</li>
+                    <li>Воскресенье : выходной</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 fit-grid wow fadeInRight animated" data-wow-delay="0.4s">
+            <div class="fit-right hvr-bounce-to-right">
+                <h3>Пользователи</h3>
+                <div th:each="user : ${allUsers}">
+                    <div
+                           th:value="${user}"
+                           th:field="*{name}">
+                    <span th:text="${user}">Name</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+</body>
+</html>
