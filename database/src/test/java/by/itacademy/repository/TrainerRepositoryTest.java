@@ -33,9 +33,8 @@ public class TrainerRepositoryTest {
     private TrainerRepository trainerRepository;
 
     @Before
-    public void init() {
-        databaseHelper.cleanDatabase();
-        databaseHelper.prepareData();
+    public void begin() {
+        databaseHelper.init();
     }
 
     @Test
@@ -48,7 +47,7 @@ public class TrainerRepositoryTest {
     @Test
     public void checkFindAll(){
         Iterable<Trainer> trainers = trainerRepository.findAll(PageRequest.of(0, 2));
-        List<Object> values = new ArrayList<>();
+        List<Trainer> values = new ArrayList<>();
         trainers.forEach(values::add);
         final int expectedSize = 3;
         assertThat(values, hasSize(expectedSize));
@@ -57,7 +56,7 @@ public class TrainerRepositoryTest {
     @Test
     public void checkFindAllByCategory(){
         Iterable<Trainer> trainers = trainerRepository.findAllByCategory(Category.FIRST);
-        List<Object> values = new ArrayList<>();
+        List<Trainer> values = new ArrayList<>();
         trainers.forEach(values::add);
         final int expectedSize = 1;
         assertThat(values, hasSize(expectedSize));
@@ -66,7 +65,7 @@ public class TrainerRepositoryTest {
     @Test
     public void checkFindAllByGymPrograms() {
         Iterable<Trainer> trainers = trainerRepository.findAllByGymPrograms(program1, PageRequest.of(0, 2));
-        List<Object> values = new ArrayList<>();
+        List<Trainer> values = new ArrayList<>();
         trainers.forEach(values::add);
         final int expectedSize = 1;
         assertThat(values, hasSize(expectedSize));
@@ -76,7 +75,7 @@ public class TrainerRepositoryTest {
     public void checkDelete(){
         trainerRepository.delete(trainer1);
         Iterable<Trainer> clients = trainerRepository.findAll();
-        List<Object> values = new ArrayList<>();
+        List<Trainer> values = new ArrayList<>();
         clients.forEach(values::add);
         final int expectedSize = 2;
         assertThat(values, hasSize(expectedSize));

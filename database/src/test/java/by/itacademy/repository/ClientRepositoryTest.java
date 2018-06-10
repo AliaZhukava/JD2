@@ -33,9 +33,8 @@ public class ClientRepositoryTest {
     private ClientRepository clientRepository;
 
     @Before
-    public void init() {
-        databaseHelper.cleanDatabase();
-        databaseHelper.prepareData();
+    public void begin() {
+        databaseHelper.init();
     }
 
     @Test
@@ -47,8 +46,8 @@ public class ClientRepositoryTest {
 
     @Test
     public void checkFindAll(){
-        Iterable<Client> clients = clientRepository.findAll(PageRequest.of(0, 2));
-        List<Object> values = new ArrayList<>();
+        Iterable<Client> clients = clientRepository.findAll();
+        List<Client> values = new ArrayList<>();
         clients.forEach(values::add);
         final int expectedSize = 6;
         assertThat(values, hasSize(expectedSize));
@@ -57,7 +56,7 @@ public class ClientRepositoryTest {
     @Test
     public void checkFindAllByNameLike(){
         Iterable<Client> clients = clientRepository.findAllByNameLike("user%");
-        List<Object> values = new ArrayList<>();
+        List<Client> values = new ArrayList<>();
         clients.forEach(values::add);
         final int expectedSize = 5;
         assertThat(values, hasSize(expectedSize));
@@ -66,7 +65,7 @@ public class ClientRepositoryTest {
     @Test
     public void checkFindAllByGymProgramsAndClientGymPrograms() {
         Iterable<Client> clients = clientRepository.findAllByGymProgramsAndClientGymPrograms(program1,clientGymProgram1, PageRequest.of(0, 2));
-        List<Object> values = new ArrayList<>();
+        List<Client> values = new ArrayList<>();
         clients.forEach(values::add);
         final int expectedSize = 2;
         assertThat(values, hasSize(expectedSize));
@@ -76,7 +75,7 @@ public class ClientRepositoryTest {
     public void checkDelete(){
         clientRepository.delete(user1);
         Iterable<Client> clients = clientRepository.findAll();
-        List<Object> values = new ArrayList<>();
+        List<Client> values = new ArrayList<>();
         clients.forEach(values::add);
         final int expectedSize = 5;
         assertThat(values, hasSize(expectedSize));

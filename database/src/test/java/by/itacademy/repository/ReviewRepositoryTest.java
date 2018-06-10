@@ -31,9 +31,8 @@ public class ReviewRepositoryTest {
     private ReviewRepository reviewRepository;
 
     @Before
-    public void init() {
-        databaseHelper.cleanDatabase();
-        databaseHelper.prepareData();
+    public void begin() {
+        databaseHelper.init();
     }
 
     @Test
@@ -54,7 +53,7 @@ public class ReviewRepositoryTest {
     @Test
     public void checkFindAllByClientNameLike(){
         Iterable<Review> reviews = reviewRepository.findAllByClientNameLike("user%");
-        List<Object> values = new ArrayList<>();
+        List<Review> values = new ArrayList<>();
         reviews.forEach(values::add);
         final int expectedSize = 4;
         assertThat(values, hasSize(expectedSize));
@@ -64,7 +63,7 @@ public class ReviewRepositoryTest {
     public void checkDelete(){
         reviewRepository.delete(review1);
         Iterable<Review> reviews = reviewRepository.findAll();
-        List<Object> values = new ArrayList<>();
+        List<Review> values = new ArrayList<>();
         reviews.forEach(values::add);
         final int expectedSize = 3;
         assertThat(values, hasSize(expectedSize));

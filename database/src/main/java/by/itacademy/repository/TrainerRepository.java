@@ -14,15 +14,9 @@ import java.util.List;
 @Repository
 public interface TrainerRepository extends CrudRepository<Trainer, Long> {
 
-    <S extends Trainer> S save(S entity);
-
-    List<Trainer> findAll(Pageable pageable);
-
     List<Trainer> findAllByCategory(Category category);
 
     List<Trainer> findAllByGymPrograms(String name, Pageable pageable);
-
-    void delete(Trainer entity);
 
     @Modifying
     @Query("update Trainer t set t.category = :tCat where t.name = :tName")

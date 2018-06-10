@@ -16,16 +16,10 @@ import java.util.Set;
 @Repository
 public interface ClientRepository extends CrudRepository<Client, Long> {
 
-    <S extends Client> S save(S entity);
-
-    List<Client> findAll(Pageable pageable);
-
     List<Client> findAllByNameLike(String name);
 
     List<Client> findAllByGymProgramsAndClientGymPrograms(Set<GymProgram> gymProgram, Set<ClientGymProgram> clientGymProgram,
                                                           Pageable pageable);
-
-    void delete(Client entity);
 
     @Modifying
     @Query("update Client c set c.bonusCount = :bCount where c.name = :cName")

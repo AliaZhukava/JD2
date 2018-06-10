@@ -33,11 +33,4 @@ public class GymProgram extends BaseEntity<Long>{
 
     @Column(name = "cost", nullable = false)
     private Integer cost;
-
-    public GymProgram(String name, Trainer trainer, Training training, Integer cost) {
-        this.name = name;
-        this.trainer = trainer;
-        this.training = training;
-        this.cost = cost;
-    }
 }

@@ -10,11 +10,7 @@ import java.util.List;
 @Repository
 public interface ReviewRepository extends CrudRepository<Review, Long> {
 
-    <S extends Review> S save(S entity);
-
     List<Review> findAll(Pageable pageable);
 
     List<Review> findAllByClientNameLike(String name);
-
-    void delete(Review entity);
 }

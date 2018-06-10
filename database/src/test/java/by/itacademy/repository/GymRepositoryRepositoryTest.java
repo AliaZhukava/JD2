@@ -30,9 +30,8 @@ public class GymRepositoryRepositoryTest {
     private GymProgramRepository gymProgramRepository;
 
     @Before
-    public void init() {
-        databaseHelper.cleanDatabase();
-        databaseHelper.prepareData();
+    public void begin() {
+        databaseHelper.init();
     }
 
     @Test
@@ -44,7 +43,7 @@ public class GymRepositoryRepositoryTest {
 
     @Test
     public void checkFindAll(){
-        Iterable<GymProgram> programs = gymProgramRepository.findAll(PageRequest.of(0, 2));
+        Iterable<GymProgram> programs = gymProgramRepository.findAll();
         List<Object> values = new ArrayList<>();
         programs.forEach(values::add);
         final int expectedSize = 6;
@@ -54,7 +53,7 @@ public class GymRepositoryRepositoryTest {
     @Test
     public void checkFindAllByTrainerNameLike(){
         Iterable<GymProgram> programs = gymProgramRepository.findAllByTrainerNameLike("%1%");
-        List<Object> values = new ArrayList<>();
+        List<GymProgram> values = new ArrayList<>();
         programs.forEach(values::add);
         final int expectedSize = 2;
         assertThat(values, hasSize(expectedSize));
@@ -64,7 +63,7 @@ public class GymRepositoryRepositoryTest {
     public void checkDelete(){
         gymProgramRepository.delete(program1);
         Iterable<GymProgram> programs = gymProgramRepository.findAll();
-        List<Object> values = new ArrayList<>();
+        List<GymProgram> values = new ArrayList<>();
         programs.forEach(values::add);
         final int expectedSize = 5;
         assertThat(values, hasSize(expectedSize));

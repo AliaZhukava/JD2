@@ -28,10 +28,4 @@ public class Review extends BaseEntity<Long> {
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "gym_user_id")
     private Client client;
-
-    public Review(LocalDate date, String text, Client client) {
-        this.date = date;
-        this.text = text;
-        this.client = client;
-    }
 }

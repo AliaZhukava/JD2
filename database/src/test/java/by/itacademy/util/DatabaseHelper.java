@@ -27,6 +27,11 @@ public class DatabaseHelper {
         this.entityManagerFactory = entityManagerFactory;
     }
 
+    public void init() {
+        cleanDatabase();
+        prepareData();
+    }
+
     public void cleanDatabase() {
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
@@ -83,13 +88,13 @@ public class DatabaseHelper {
         entityManager.persist(program6);
 
         Client user1 = new Client("login1", "pass1", GymUserRole.USER, "name1",
-                375291111111L, "email1", 0, clientGymProgram1, program1);
+                375291111111L, "email1", 0);
         Client user2 = new Client("login2", "pass2", GymUserRole.USER, "name2",
-                375292222222L, "email2", 10, clientGymProgram1, program1);
+                375292222222L, "email2", 10);
         Client user3 = new Client("login3", "pass3", GymUserRole.USER, "name3",
-                375293333333L, "email3", 20, clientGymProgram2, program2);
+                375293333333L, "email3", 20);
         Client user4 = new Client("login4", "pass4", GymUserRole.USER, "name4",
-                375294444444L, "email4", 0, clientGymProgram2, program2);
+                375294444444L, "email4", 0);
         Client user5 = new Client("login5", "pass5", GymUserRole.USER, "name5",
                 375295555555L, "email5", 0);
         Client admin = new Client("admin", "admin", GymUserRole.ADMIN, "admin",

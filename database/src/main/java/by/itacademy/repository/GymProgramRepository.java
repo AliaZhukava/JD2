@@ -1,7 +1,6 @@
 package by.itacademy.repository;
 
 import by.itacademy.entity.GymProgram;
-import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
@@ -13,15 +12,9 @@ import java.util.List;
 @Repository
 public interface GymProgramRepository extends CrudRepository<GymProgram, Long> {
 
-    <S extends GymProgram> S save(S entity);
-
-    List<GymProgram> findAll(Pageable pageable);
-
     List<GymProgram> findAllByTrainerNameLike(String name);
-
-    void delete(GymProgram entity);
 
     @Modifying
     @Query("update GymProgram p set p.cost = :pCost where p.name = :pName")
-    int updateGymProgram(@Param("pCost") Integer count, @Param("pName") String name);
+    int updateGymProgram(@Param("pCost") Integer cost, @Param("pName") String name);
 }

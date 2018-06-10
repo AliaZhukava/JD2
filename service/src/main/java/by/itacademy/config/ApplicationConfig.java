@@ -7,6 +7,5 @@ import org.springframework.context.annotation.Import;
 @Configuration
 @ComponentScan(basePackages = "by.itacademy.repository")
 @Import(PersistenceConfig.class)
-
 public class ApplicationConfig {
 }

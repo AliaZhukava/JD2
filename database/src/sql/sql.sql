@@ -48,7 +48,7 @@ CREATE TABLE client (
 CREATE TABLE client_gym_program (
   id BIGSERIAL PRIMARY KEY,
   client_id BIGINT REFERENCES client (id),
-  time time not null ,
+  time time NOT NULL,
   day_of_week CHARACTER VARYING(128) NOT NULL,
   gym_program_id BIGINT REFERENCES gym_program (id)
 );

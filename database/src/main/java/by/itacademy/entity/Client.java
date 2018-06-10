@@ -2,6 +2,7 @@ package by.itacademy.entity;
 
 import by.itacademy.entity.enum_entity.GymUserRole;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -22,6 +23,7 @@ import java.util.Set;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 @Entity
 @Table(name = "client", schema = "gym_storage")
 @DiscriminatorValue("CLIENT")
@@ -56,9 +58,6 @@ public class Client extends User {
         this.bonusCount = bonusCount;
         this.clientGymPrograms = clientGymPrograms;
         this.gymPrograms = gymPrograms;
-    }
-
-    public Client(String login1, String pass1, GymUserRole user, String name1, long phoneNumber, String email1, int bonusCount, ClientGymProgram clientGymProgram1, GymProgram program1) {
     }
 }
 
