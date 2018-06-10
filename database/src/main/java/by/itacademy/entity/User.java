@@ -18,7 +18,6 @@ import javax.persistence.Table;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-//@Builder
 @Entity
 @Table(name = "gym_user", schema = "gym_storage")
 @Inheritance(strategy = InheritanceType.JOINED)

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>BeInShape Gym</title>
+    <link href="/resources/css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <link href="/resources/css/style.css" rel='stylesheet' type='text/css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/resources/js/jquery-1.11.1.min.js"></script>
+    <script src="/resources/js/bootstrap.js"></script>
+    <link href="/resources/css/animate.css" rel="stylesheet" type="text/css"
+          media="all">
+    <script src="/resources/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+<body>
+<div class="banner wow fadeInDownBig animated" data-wow-delay="0.4s">
+    <div class="container">
+        <h2>Мы рады приветствовать Вас</h2>
+    </div>
+</div>
+<div class="contact w3l">
+    <div class="map wow fadeInUpBig animated" data-wow-delay="0.4s">
+        <iframe src="https://www.google.com/maps/embed/v1/view?zoom=17&center=53.9259,27.5960&key=AIzaSyCDzmLqmN2mLGmrjPKMJgBYXUxC7q6O3cQ"></iframe>
+    </div>
+    <div class="map-grids w3-agile">
+        <div class="col-md-8 map-middle wow fadeInRight animated" data-wow-delay="0.4s">
+            <form action="@{/login}" method="post">
+                <input type="text" name="login" placeholder="Логин" required="">
+                <input type="password" name="password" placeholder="Пароль" required="">
+                <input type="submit" value="Войти">
+            </form>
+            <a class="nav-in" href="/registration"><span
+                    data-letters="Зарегистрироваться">Зарегистрироваться</span></a>
+        </div>
+        <div class="col-md-4 map-left wow fadeInLeft animated" data-wow-delay="0.4s">
+            <h4>Адрес</h4>
+            <ul>
+                <li> ул. Сурганова 28, Минск</li>
+                <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i> Velcom : +375 44 540 40 40</li>
+                <li><i class="glyphicon glyphicon-phone" aria-hidden="true"></i> МТС : +375 29 540 40 40</li>
+                <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i> <a href="#"><a
+                        href="mailto:bis@example.com">bis@example.com</a></a></li>
+                <li><i class="glyphicon glyphicon-print" aria-hidden="true"></i> Skype : bis_gym</li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div>
+    <div class="container">
+        <div class="social-icons">
+            <a href="#"><i class="icon"></i></a>
+            <a href="#"><i class="icon1"></i></a>
+            <a href="#"><i class="icon2"></i></a>
+            <a href="#"><i class="icon3"></i></a>
+        </div>
+        <p>&copy; 2018 BeInShape Gym . All rights reserved | Design by Alia Zhukava</p>
+    </div>
+</div>
+</body>
+</html>

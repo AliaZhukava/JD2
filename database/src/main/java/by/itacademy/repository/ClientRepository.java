@@ -18,6 +18,8 @@ public interface ClientRepository extends CrudRepository<Client, Long> {
 
     List<Client> findAllByNameLike(String name);
 
+    Client findByName(String name);
+
     List<Client> findAllByGymProgramsAndClientGymPrograms(Set<GymProgram> gymProgram, Set<ClientGymProgram> clientGymProgram,
                                                           Pageable pageable);
 
