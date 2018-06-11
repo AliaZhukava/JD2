@@ -1,6 +1,5 @@
 package by.itacademy.servlet;
 
-import by.itacademy.entity.User;
 import by.itacademy.service.UserService;
 
 import javax.servlet.ServletException;

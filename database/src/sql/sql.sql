@@ -36,8 +36,6 @@ CREATE TABLE gym_program (
   name CHARACTER VARYING(128) NOT NULL,
   trainer_id BIGINT REFERENCES trainer (id),
   training_id BIGINT REFERENCES training (id),
-  time time not null ,
-  day_of_week CHARACTER VARYING(128) NOT NULL,
   cost INTEGER NOT NULL
 );
 
@@ -50,5 +48,7 @@ CREATE TABLE client (
 CREATE TABLE client_gym_program (
   id BIGSERIAL PRIMARY KEY,
   client_id BIGINT REFERENCES client (id),
+  time time NOT NULL,
+  day_of_week CHARACTER VARYING(128) NOT NULL,
   gym_program_id BIGINT REFERENCES gym_program (id)
 );
